@@ -1,13 +1,35 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(173, 167, 167);
 }
+.cards {
+  background-color: aliceblue;
+ 
+  width: 280px;
+  margin: 50px 60px;
+  margin-left: 110px;
+  box-shadow: 5px 5px 35px 20px rgb(87, 86, 86);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  border-radius: 10px;
+  display: inline-block;
+}
+.card__info {
+  margin: 10px 10px;
+  text-transform: uppercase;
+}
+.card__category {
+  margin-left: 30px;
+  color: rgb(63, 62, 62);
+}
+.card_title {
+  margin-top: 20px;
+}
+.cards:hover {
+  box-shadow: 5px 5px 35px 20px white;
+  background-color: rgb(218, 218, 218);
+  transform: scale(1.05, 1.05);
+}
+.id{
+  color:black;
+  font-weight: bolder;
 }
